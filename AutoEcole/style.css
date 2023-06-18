@@ -1,0 +1,45 @@
+main, body{
+    /* Définit la taille de la page */
+    /* vh correspond à la taille de la fenêtre du client */
+    height: 100vh;
+    max-height: 100vh;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+form {
+    border: 1px solid #000000;
+    border-radius: 20px;
+    padding: 20px;
+    margin: auto;
+    width: 50%;
+    margin-top: 10%;
+    box-shadow: 5px 5px 5px black;
+}
+
+form button {
+    width: 100%;
+}
+
+.message_retour {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 20px;
+    padding: 10px;
+    width: 80%;
+    margin-top: 20%;
+}
+
+.message_retour_error {
+    border: 1px solid red;
+}
+
+.message_retour_success {
+    border: 1px solid green;
+}
+
